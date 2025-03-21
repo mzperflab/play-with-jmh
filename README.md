@@ -1,6 +1,5 @@
-# play-with-jmh
-into project for jmh the java benchmarking tool
-
+# Play With Java Microbenchmark Harness
+introduction project for jmh the java benchmarking tool
 
 # Build & Package  
 mvn clean install package
