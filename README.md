@@ -1,6 +1,8 @@
 # Play With Java Microbenchmark Harness
-introduction project for jmh the java benchmarking tool
+Introduction project for JMH the java micro benchmarking tool
+
 # Create Project
+````bash
 mvn archetype:generate
     -DinteractiveMode=false
     -DarchetypeGroupId=org.apache.maven.archetypes
@@ -9,11 +11,15 @@ mvn archetype:generate
     -DgroupId=io.performancelab
     -DartifactId=play-with-jmh
     -Dversion=1.0
+````
 
-# Build & Package  
+# Build & Package
+```bash 
 mvn clean install package
+```
 
 # Run from command line 
+```bash
 java -jar target/play-with-jmh-1.0-SNAPSHOT.jar
-
+```
  
