@@ -11,8 +11,11 @@ public class SumTest {
      */
     @Test
     void sum() {
-        int v1Val = Sum.sum_v1(1,10000);
-        int v2Val = Sum.sum_v2(1,10000);
+        int v1Val = Sum.sum_range(3,7);
+        int v2Val = Sum.sum_algo(3,7);
+        int v3Val = Sum.sum_range(3,7);
         assertEquals(v1Val, v2Val);
+        assertEquals(v1Val, v3Val);
+
     }
 }
